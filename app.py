@@ -280,7 +280,6 @@ def logoutRepresent():
     return redirect(url_for("loginRepresent"))
 
 # OpenAI API Key 
-openai.api_key = "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"
 
 def get_completion(prompt): 
 	print(prompt) 
